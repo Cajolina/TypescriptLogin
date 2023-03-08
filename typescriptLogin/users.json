@@ -1,0 +1,12 @@
+[
+  {
+    "email": "test.testsson@testmail.se",
+    "password": "12345",
+    "fistName": "Test",
+    "lastName": "Testsson",
+    "age": 30,
+    "phoneNumber": "12346859",
+    "shoeSize": "45",
+    "catOwner": true
+  }
+]

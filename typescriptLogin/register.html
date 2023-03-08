@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="register.js" defer></script>
+    <title>Register</title>
+  </head>
+  <body>
+    <main>
+      <div class="registerContainer">
+        <input class="regEmail" type="email" placeholder="e-mail" />
+        <input class="regPassword" type="password" placeholder="password" />
+        <input class="regFirstname" type="text" placeholder="firstname" />
+        <input class="regLastname" type="text" placeholder="lastname" />
+        <input class="regAge" type="number" placeholder="age" />
+        <input class="regPhone" type="text" placeholder="phonenumber" />
+        <input class="regShoe" type="text" placeholder="shoe size" />
+        <label class="regCat" for="cats">Do you have a cat?</label>
+        <input
+          class="regYes"
+          type="radio"
+          name="catRadio"
+          id="yes"
+          value="yes"
+        />
+        <label class="regLabelYes" for="yes">Yes</label>
+        <input class="regNo" type="radio" name="catRadio" id="no" value="no" />
+        <label class="regLabelNo" for="no">No</label>
+        <button class="regBtn">Register</button>
+      </div>
+    </main>
+  </body>
+</html>
